@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="Utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/836aef62da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Best4dees</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website/Application Developer</p>
+                <h1>Hi, I'm <span>Dolapo</span><br>Praise (front-end Developer)</h1>
+            </div>
+        </div>
+    </div>
+    <!------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/bday smile.jpg" alt="my-personal-picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate website and application developer with a knack of creating seamless user experiences, 
+                        I specialize in developing and creating creative websites and applications that appeal to all audiences and turning complex problems into elegant solutions through code.
+                        My mission is to create sites that are memorable,easy-to navigate, and driven by client's individual needs. With each websites/Applications i create, 
+                        i priotize user experience first and look for unique ways to combine form with functionality.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                                <li><span>Front-end Development</span><br></li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Design and Develope</span><br>my personal portfolio website</li>
+                                <li><span>Design and Develope</span><br>a calculator Application</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Undergraduate of</span><br>Ladoke Akintola University of Technology</li>
+                                <li><span>Department</span><br>Computer-science</li>
+                                <li><span>State/Country</span><br>Oyo/Nigeria</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------services------>
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/1.png" alt="my portfolio work">
+                    <div class="layer">
+                        <h3>My Portfolio Website</h3>
+                        <p>I craft unique, user-friendly websites tailored to your brand and audience,
+                            build responsive, high-performance websites with seamless user experiences.
+                            I prioritize security measures and optimize your site for search engines to ensure your online success.
+                            Explore my portfolio and let's bring your digital vision to life. Contact me today for a consultation!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/2.png" alt="Responsive Design">
+                    <div class="layer">
+                        <h3>Responsive Design</h3>
+                        <p>Good in creating stunning and functional websites/applications that leave a lasting impression,
+                            i ensure your website/applications looks and works flawlessly on desktops, tablets, and smartphones.
+                            Design stunning and intuitive interfaces for iOS and Android apps,
+                            Focus on user-centric design to maximize user engagement and satisfaction.
+                            Whether you need a compelling website or an eye-catching mobile app design, i'm here to transform your vision into stunning reality.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/3.png" alt="my music app">
+                    <div class="layer">
+                        <h3>Front-end App Developer</h3>
+                        <p>I Develop applications that work seamlessly across various browsers and devices.
+                            Optimize performance for swift loading and smooth interactions,
+                            Implement interactive elements, animations, and transitions to enhance user engagement,
+                            I Ensure accessibility and user-friendliness on touch-based devices,
+                            Conduct thorough testing and gather user feedback to fine-tune the application's front-end for optimal performance,
+                            Continuous improvement to keep your application ahead of the curve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>Email: <a href="mailto:dolapooluwadiwura@gmail.com">dolapooluwadiwura@gmail.com</a></p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>phone no: 08121746422</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dolapo.oluwadiwura?mibextid=nb1MFm3jZYALyyMy"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://x.com/Dolapopraise03?t=-AuG_66ZjreHkKe3UcuACQ&s=09"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/dolapodee4?igsh=dnl0d2tzYXhpZWE1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/dolapo-praise-033630288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="img/Dolapo Praise.pdf" download class="download">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Input your Name" autocomplete="organization-title" required>
+                        <input type="email" name="Email" placeholder="Input your Email" autocomplete="off" required>
+                        <textarea name="Message" rows="5" placeholder="Input your message..." autocomplete="cc-type" required></textarea>
+                        <button type="submit" class="download">Submit</button>
+                    </form>
+                 <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Best4dees</p>
+        </div>
+    </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
